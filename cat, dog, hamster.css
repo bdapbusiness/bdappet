@@ -1,0 +1,110 @@
+body{
+    width: 1100px;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    border-bottom: 2px solid black;
+}
+.firstline{
+    display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+   font-size: 140%;
+   margin: 20px;
+}
+
+.intro a{
+    text-decoration: none;
+    color: purple;
+    font-size: 160%;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+  
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #ff00ea;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #ad0884;
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  main{
+      margin-top: 50px;
+  }
+  h1{
+    color: purple;
+  }
+  .category{
+      margin: 40px;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+  }
+  .category a {
+      text-decoration: none;
+      font-size: 140%;
+      color: black;
+      font-weight: 500;    
+  }
+  span{
+      color: purple;
+      font-weight: 700;
+      border: 1px solid black;
+      padding: 5px 10px;
+      border-radius: 20px;
+  }
+  .pic{
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: space-around;
+  }
+  .pic img{
+      height: 250px;
+      width: 250px;
+      object-fit: cover;
+      margin-right: 30px;
+      margin-bottom: 10px;
+      margin-top: 40px;
+      border-radius: 20px;
+      transition: 0.4s;
+  }
+  .pic a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 50px;
+  }
+  .pic h2{
+    margin: 5px;
+  }
+  .pic img:hover{
+      transform: scale(1.1);
+
+  }
